@@ -1,15 +1,110 @@
 @import "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&family=Quicksand:wght@300;400;500&display=swap";
+.logoLadipPrincipal {
+  height: 100px;
+  width: 210px;
+}
+
+.bannerSecundario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  /* height: 500px; */
+  height: calc(100vh - 120px);
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/6758773/pexels-photo-6758773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 60%;
+  margin-top: 12px;
+}
+.bannerSecundario p {
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: 100;
+  margin-right: 12px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 8px;
+}
+.bannerSecundario a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 24px;
+  border: 1px #D5D8DC solid;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+/* Media Query del BANNER SECUNDARIO */
+@media (max-width: 600px) {
+  .bannerSecundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/6758773/pexels-photo-6758773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: 12px;
+  }
+  .bannerSecundario p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 50;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 8px;
+  }
+  .bannerSecundario a {
+    font-size: 16px;
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px black solid;
+  padding: 12px;
+}
+
+.logoIg {
+  height: 20px;
+  width: 20px;
+}
+
+.logoFb {
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 12px;
+    padding: 6px;
+  }
+  footer article {
+    border-bottom: 1px black solid;
+  }
+  footer article:nth-child(3) {
+    border-bottom: none;
+  }
+}
 body {
   font-family: "Alegreya Sans", sans-serif;
   background-color: #F8F9F9;
 }
 
 /*header*/
-.logoLadipPrincipal {
-  height: 100px;
-  width: 210px;
-}
-
 /* Estilos BANNER PRINCIPAL**************** */
 .bannerPrincipal {
   display: flex;
@@ -75,98 +170,6 @@ body {
   }
 }
 /* Estilos del BANNER SECUNDARIO************* */
-.bannerSecundario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: end;
-  /* height: 500px; */
-  height: calc(100vh - 120px);
-  width: 100%;
-  background-image: url(https://images.pexels.com/photos/6758773/pexels-photo-6758773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: 60%;
-  margin-top: 12px;
-  /* Media Query del banner secundario */
-}
-.bannerSecundario p {
-  color: whitesmoke;
-  font-size: 24px;
-  font-weight: 100;
-  margin-right: 12px;
-  padding: 8px;
-  background-color: rgba(0, 0, 0, 0.562);
-  border-radius: 8px;
-}
-.bannerSecundario a {
-  color: whitesmoke;
-  text-decoration: none;
-  font-size: 24px;
-  border: 1px #D5D8DC solid;
-  border-radius: 4px;
-  padding: 4px;
-}
-@media (max-width: 600px) {
-  .bannerSecundario .bannerSecundario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100%;
-    width: 100%;
-    background-image: url(https://images.pexels.com/photos/6758773/pexels-photo-6758773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    margin-top: 12px;
-  }
-  .bannerSecundario .bannerSecundario p {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: whitesmoke;
-    font-size: 16px;
-    font-weight: 50;
-    padding: 4px;
-    background-color: rgba(0, 0, 0, 0.808);
-    border-radius: 8px;
-  }
-  .bannerSecundario .bannerSecundario a {
-    font-size: 16px;
-  }
-}
-
-/* Media Query del BANNER SECUNDARIO */
-@media (max-width: 600px) {
-  .bannerSecundario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100%;
-    width: 100%;
-    background-image: url(https://images.pexels.com/photos/6758773/pexels-photo-6758773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    margin-top: 12px;
-  }
-  .bannerSecundario p {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: whitesmoke;
-    font-size: 16px;
-    font-weight: 50;
-    padding: 4px;
-    background-color: rgba(0, 0, 0, 0.808);
-    border-radius: 8px;
-  }
-  .bannerSecundario a {
-    font-size: 16px;
-  }
-}
 /* Estilos del contenido Principal del INDEX********/
 .contenidoPrincipalIndex {
   margin-top: 12px;
@@ -439,39 +442,6 @@ body {
   }
 }
 /*Estilos del contenido principal de FOOTER********************/
-footer {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px black solid;
-  padding: 12px;
-}
-
-.logoIg {
-  height: 20px;
-  width: 20px;
-}
-
-.logoFb {
-  height: 20px;
-  width: 20px;
-}
-
-@media (max-width: 600px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    font-size: 12px;
-    padding: 6px;
-  }
-  footer article {
-    border-bottom: 1px black solid;
-  }
-  footer article:nth-child(3) {
-    border-bottom: none;
-  }
-}
 /*Estilos del contenido principal de BOTON WHATSAPP***********/
 .whatsappBoton {
   width: 40px;
