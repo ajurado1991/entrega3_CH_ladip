@@ -104,7 +104,6 @@ body {
   background-color: #F8F9F9;
 }
 
-/*header*/
 /* Estilos BANNER PRINCIPAL**************** */
 .bannerPrincipal {
   display: flex;
@@ -169,7 +168,6 @@ body {
     font-size: 20px;
   }
 }
-/* Estilos del BANNER SECUNDARIO************* */
 /* Estilos del contenido Principal del INDEX********/
 .contenidoPrincipalIndex {
   margin-top: 12px;
@@ -441,7 +439,6 @@ body {
     width: 90%;
   }
 }
-/*Estilos del contenido principal de FOOTER********************/
 /*Estilos del contenido principal de BOTON WHATSAPP***********/
 .whatsappBoton {
   width: 40px;
