@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <!-- Link de mi css -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <title>Cotizaciones-LADIP | Taller de mobiliario de lujo</title>
+    <meta name="description" content="Cotizamos de manera personalizada tu proyecto, brindándote la atención y el compromiso que nos distingue.">
+</head>
+
+
+<body>
+
+    <header>
+
+        <!-- <a href="index.html"> <img src="../images/ladip-logo.png" alt="Logo ladip" class="logoLadipPrincipal"> </a>
+        
+        <nav class="navBar1">
+            <ul>
+                <li> <a href="">es</a> </li>
+                <li> <a href="">en</a> </li>
+            </ul>
+
+            <ul>
+                <li> <a href="../index.html">Inicio</a> </li>
+                <li> <a href="empresa.html">Empresa</a> </li>
+                <li> <a href="proyectos.html">Proyectos</a> </li>
+                <li> <a href="cotizaciones.html">Cotizaciones</a> </li>
+                <li> <a href="contacto.html">Contacto</a> </li>
+            </ul>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img
+                src="../images/ladip-logo.png"
+                alt="Logo ladip"
+                class="logoLadipPrincipal"
+              /></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="empresa.html">Empresa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="proyectos.html">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cotizaciones.html">Cotizaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+        <section class="cotizacionesSubtitulo">
+            <div>
+                <p>Compártenos tus datos y cuéntanos más de tu proyecto,</p>
+                <p>con gusto te haremos llegar una cotización personalizada</p>
+            </div>
+        </section>
+
+        <section class="cuerpoFormulario">
+            <div>
+                <!-- <p>Por favor, llena el formulario para que podamos ponernos en contacto</p> -->
+                <div class="formularioNombre">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selecciona</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Arq.</a></li>
+                      <li><a class="dropdown-item" href="#">Interiorista</a></li>
+                      <li><a class="dropdown-item" href="#">Diseñador</a></li>
+                    </ul>
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Nombre Completo">
+                  </div>
+
+                  <p>Datos de contacto</p>
+                  <form class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputValue" placeholder="correo@ejemplo.com" value="correo@ejemplo.com">
+                    <label for="floatingInputValue">Ingresa tu correo</label>
+                  </form>
+
+                  <form class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputValue" placeholder="(+52)" value="(+52)">
+                    <label for="floatingInputValue">Teléfono</label>
+                  </form>
+
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>¿Por qué medio prefieres que te contactemos?</option>
+                    <option value="1">Llamada</option>
+                    <option value="2">E-mail</option>
+                    <option value="3">Whatsapp</option>
+                  </select>
+
+                  <!-- <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px"></textarea>
+                    <label for="floatingTextarea2">¿De qué trata?</label>
+                  </div> -->
+
+                  <br><br>
+
+                  <label for="texto">
+                    <p>Datos del proyecto</p>
+                    <textarea name="" id="" cols="70" rows="13" placeholder="¿De qué se trata tu proyecto?"></textarea>
+                  </label>
+
+                  <div class="input-group mb-3">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Subir</label>
+                  </div>
+
+                  <br>
+
+                  <label for="fecha">
+                    <p>Fecha aproximada de entrega</p>
+                    <input type="date" name="fecha" id="fecha">
+                </label>
+
+                <br><br>
+
+                <label for="">
+                    <input type="submit" value="Enviar mis datos">
+                    <input type="reset" value="Borrar mis datos">
+                </label>
+
+
+
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+
+</body>
+
+</html>
+
+
