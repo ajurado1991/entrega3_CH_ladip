@@ -229,6 +229,50 @@ body {
 	}
 }
 
+/*Estilos del contenido principal de EMPRESA SEGUNDA VERSIÓN ¡¡¡¡PRUEBA PRUEBA!!!! *************/
+
+.empresa {
+    margin-top: $margenUniversal;
+}
+
+.empresa-title {
+    font-size: $alturaTipoh2;
+    border-bottom: $bordeBajoh2;
+    margin-top: $margenSuph2;
+    border-top: $bordeAltoh2;
+    padding: $paddingh2;
+}
+
+.empresa-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+}
+
+.empresa-grid-image {
+    grid-area: 1 / 1 / 3 / 3;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.empresa-grid-subtitle {
+    grid-column:  3 / 5;
+    grid-row: 1 / 2;
+    align-self: end;
+    padding: 16px;
+    font-size: $alturaTipoh3;
+}
+
+.empresa-grid-text {
+    grid-column:  3 / 5;
+    grid-row: 2 / 3;
+    padding: 16px;
+}
+
+
+
+
 
 /*Estilos del contenido principal de PROYECTOS****************/
 

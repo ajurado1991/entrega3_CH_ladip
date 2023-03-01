@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&family=Quicksand:wght@300;400;500&display=swap";
 .logoLadipPrincipal {
   height: 100px;
@@ -291,6 +292,46 @@ body {
     font-weight: bold;
   }
 }
+/*Estilos del contenido principal de EMPRESA SEGUNDA VERSIÓN ¡¡¡¡PRUEBA PRUEBA!!!! *************/
+.empresa {
+  margin-top: 12px;
+}
+
+.empresa-title {
+  font-size: 28px;
+  border-bottom: 1px black solid;
+  margin-top: 8px;
+  border-top: 1px black solid;
+  padding: 16px;
+}
+
+.empresa-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+}
+
+.empresa-grid-image {
+  grid-area: 1/1/3/3;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.empresa-grid-subtitle {
+  grid-column: 3/5;
+  grid-row: 1/2;
+  align-self: end;
+  padding: 16px;
+  font-size: 24px;
+}
+
+.empresa-grid-text {
+  grid-column: 3/5;
+  grid-row: 2/3;
+  padding: 16px;
+}
+
 /*Estilos del contenido principal de PROYECTOS****************/
 .contenidoPrincipalProyectos {
   margin-top: 12px;
