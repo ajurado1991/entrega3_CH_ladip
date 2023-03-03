@@ -767,6 +767,14 @@ body {
 
 /*Estilos del contenido principal de PROYECTOS****************/
 
+.proyectos-title {
+    font-size: $alturaTipoh2;
+    border-bottom: $bordeBajoh2;
+    margin-top: $margenSuph2;
+    border-top: $bordeAltoh2;
+    padding: $paddingh2;
+}
+
 .contenidoPrincipalProyectos {
     margin-top: $margenUniversal;
     
@@ -784,14 +792,15 @@ body {
         justify-content: space-between;
     }
     span{
-        margin-left: 28px;
-        margin-right: 28px;
-        padding: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 12px;
     }
 
     img{
         height: 100%;
         width: 100%;
+        border-radius: 8px;
     }
 
 }
@@ -989,19 +998,19 @@ body {
 /*Estilos del contenido principal de BOTON WHATSAPP***********/
 
 .whatsappBoton {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: fixed;
-    bottom: 10%;
-    right: 10%;
+    bottom: 5%;
+    right: 5%;
 }
 
 @media (max-width: 600px) {
 	.whatsappBoton {
-		width: 28px;
-		height: 28px;
+		width: 24px;
+		height: 24px;
 		position: fixed;
-		bottom: 6%;
-		right: 6%;
+		bottom: 4%;
+		right: 4%;
 	}
 }
